@@ -1,0 +1,25 @@
+{
+  "name": "FSQAP2",
+  "version": "1.0.0",
+  "description": "Build a multi-route http server, Read html files from a views folder &amp; Write events to the console",
+  "main": "legevents.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/millerlisa/FullStackQAP2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/millerlisa/FullStackQAP2/issues"
+  },
+  "homepage": "https://github.com/millerlisa/FullStackQAP2#readme",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "date-fns": "^3.6.0",
+    "uuid": "^10.0.0"
+  }
+}

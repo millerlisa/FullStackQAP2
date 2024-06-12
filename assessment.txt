@@ -1,1 +1,15 @@
-How many hours is it take to complete this assessment?
+1. How many hours is it take to complete this assessment?
+This assignment took me far too long. I couldn't get the log events to work for ages. Approximately 12 hours for this QAP. 
+
+2. What online resources you have used? 
+I watched and rewatched lectures, I watched the YouTube videos you posted plus some, copilot... so many questions to copilot.
+
+3. Did you need to ask any of your friends in solving the problems.
+No.
+
+4. Did you need to ask questions to any of your instructors? 
+No. 
+I probably would have availed on the support sessions if I was far enough into the projec to ask for help when these sessions happend.
+
+5. Rate (subjectively) the difficulty of each question.
+Tasks 1 & 2 didn't cause much trouble for me but task three stumped me at the end of the first day working on this, the entire second day and I finally got it working day 3. I hope I can solve similar problems since Sprint is mere hours away...
