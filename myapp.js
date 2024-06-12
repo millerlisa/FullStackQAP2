@@ -2,6 +2,8 @@ const http = require("http");
 const fs = require("fs");
 const path = require("path");
 const port = 3000;
+const events = require("events");
+const myEventEmitter = require("./logevents");
 
 global.DEBUG = true;
 
@@ -13,7 +15,11 @@ const server = http.createServer(async (req, res) => {
     return;
   }
   const fullUrl = `http://${req.headers.host}${req.url}`;
-  if (DEBUG) console.log("Request URL:", req.url); // log the request URL
+  if (DEBUG) console.log("Request URL:", fullUrl); // log the request URL
+
+  // Emit an event with the request URL
+  myEventEmitter.emit("request", { url: fullUrl, statusCode: res.statusCode });
+
   switch (req.url) {
     case "/":
       res.writeHead(200, { "Content-Type": "text/html" });
